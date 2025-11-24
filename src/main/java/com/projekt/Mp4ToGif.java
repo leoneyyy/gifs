@@ -13,18 +13,7 @@ import java.io.File;
 
 public class Mp4ToGif {
 
-    public static void main(String[] args) {
-        File sourceVideo = new File("video.mov");
-        File outputGif = new File("output.gif");
 
-        try {
-            System.out.println("Konvertierung gestartet...");
-            convertMp4ToGif(sourceVideo, outputGif);
-            System.out.println("Fertig! GIF gespeichert unter: " + outputGif.getAbsolutePath());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     public static void convertMp4ToGif(File source, File destination) throws Exception {
 
