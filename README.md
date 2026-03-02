@@ -7,23 +7,12 @@ Beim Start öffnet sich ein **Fenster**, in dem du ein Video auswählst – dana
 
 - **Java 21**
 - **Maven**
-- (Falls benötigt) **FFmpeg** installiert und im `PATH`
 
 ## Build
 
 ```bash
 mvn clean package
 ```
-
-## Start
-
-Je nach Build-Art (Jar mit/ohne Dependencies) kannst du es typischerweise so starten:
-
-```bash
-java -jar target/gifs.jar
-```
-
-> Falls deine erzeugte Datei anders heißt (z.B. `gifs-1.0.0.jar`), nimm diesen Namen aus `target/`.
 
 ## Verwendung
 
