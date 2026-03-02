@@ -20,7 +20,7 @@ mvn clean package
 2. Video-Datei auswählen (z.B. `.mp4`, `.mov`, …)
 3. Das Programm erstellt daraus eine `.gif` Datei
 
-**Ausgabe:** Das GIF wird gespeichert **(Ausgabeort bitte anpassen, z.B. im gleichen Ordner wie das Video / im Projektordner / frei wählbar)**.
+**Ausgabe:** Das GIF wird gespeichert **(im gleichen Ordner wie das Video)**.
 
 ## Lizenz
 
